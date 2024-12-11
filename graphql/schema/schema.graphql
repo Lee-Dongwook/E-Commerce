@@ -1,0 +1,12 @@
+scalar BigFloat
+
+input BigFloatFilter {
+    eq: BigFloat
+    gt: BigFloat
+    gte: BigFloat
+    in: [BigFloat!]
+    is: FilterIs
+    lt: BigFloat
+    lte: BigFloat
+    neq: BigFloat
+}
